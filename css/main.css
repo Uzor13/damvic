@@ -320,6 +320,39 @@ main {
     border: none;
 }
 
+.projects-section {
+    margin-top: 3rem;
+}
+
+.gallery-heading {
+    margin-bottom: 3rem;
+}
+
+.gallery-heading h1 {
+    font-size: 2.4rem;
+}
+
+.gallery-heading p {
+    font-size: 1.2rem;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+.gallery-img {
+    width: 100%;
+    height: 100%;
+    /*height: 300px;*/
+}
+
+.gallery img {
+    border-radius: .3rem;
+    width: 100%;
+}
+
 footer {
     height: 200px;
     width: 100%;
@@ -439,6 +472,10 @@ footer ul li a {
         grid-template-columns: 1fr;
         gap: 1.4rem;
         justify-content: center;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
     }
 
     .contact-form {
